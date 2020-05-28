@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6d98500-b552-4a17-abbb-3fe14f4648e3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/Form1.Designer.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/AppUser.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/DBConnection.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/UpdatePassword.Designer.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/BusinessDAO.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/Business.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/Adress.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/AdressDAO.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/Address.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/AppOrder.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/Product.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/ProductsDAO.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/AdminUser.Designer.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/AddressDAO.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/NormalUser.Designer.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/NonExistentOrderException.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/AppUserDAO.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/ExistentUsernameException.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/Form1.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/UpdatePassword.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/AdminUser.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/AppOrderDAO.cs" />
+        <option value="$PROJECT_DIR$/Segundo Parcial POO/NormalUser.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\user\Desktop\CMCC_00008119_2EP\Segundo Parcial POO\.idea\.idea.Segundo Parcial POO\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cUvmLdTlhW43k6hY0yeYN99vPM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.CSharpInteractiveConfiguration" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Segundo Parcial POO" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Segundo Parcial POO/Segundo Parcial POO.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6d98500-b552-4a17-abbb-3fe14f4648e3" name="Default Changelist" comment="" />
+      <created>1590596144698</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590596144698</updated>
+      <workItem from="1590596150489" duration="20976000" />
+      <workItem from="1590618840108" duration="532000" />
+      <workItem from="1590619378853" duration="29000" />
+      <workItem from="1590619411365" duration="6652000" />
+      <workItem from="1590626195279" duration="10449000" />
+      <workItem from="1590636768657" duration="1623000" />
+      <workItem from="1590638562709" duration="884000" />
+      <workItem from="1590639460771" duration="1171000" />
+      <workItem from="1590640978746" duration="35000" />
+      <workItem from="1590641020301" duration="400000" />
+      <workItem from="1590641540420" duration="1093000" />
+      <workItem from="1590642673939" duration="12486000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="506" y="307" key="Assembly removing confirmation dialog" timestamp="1590631864481">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="506" y="307" key="Assembly removing confirmation dialog/0.0.1280.720@0.0.1280.720" timestamp="1590631864481" />
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1590655199448">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590655199448" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1590655199448">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1590655199448" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1590655199448">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1590655199448" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1590655199448">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1590655199448" />
+    <state width="1237" height="87" key="GridCell.Tab.1.bottom" timestamp="1590640636986">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590640636986" />
+    <state width="1237" height="87" key="GridCell.Tab.1.center" timestamp="1590640636986">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1590640636986" />
+    <state width="1237" height="87" key="GridCell.Tab.1.left" timestamp="1590640636985">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1590640636985" />
+    <state width="1237" height="87" key="GridCell.Tab.1.right" timestamp="1590640636986">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1590640636986" />
+    <state width="1237" height="87" key="GridCell.Tab.2.bottom" timestamp="1590640636986">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.2.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590640636986" />
+    <state width="1237" height="87" key="GridCell.Tab.2.center" timestamp="1590640636986">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.2.center/0.0.1280.720@0.0.1280.720" timestamp="1590640636986" />
+    <state width="1237" height="87" key="GridCell.Tab.2.left" timestamp="1590640636986">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.2.left/0.0.1280.720@0.0.1280.720" timestamp="1590640636986" />
+    <state width="1237" height="87" key="GridCell.Tab.2.right" timestamp="1590640636986">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.2.right/0.0.1280.720@0.0.1280.720" timestamp="1590640636986" />
+    <state width="1237" height="87" key="GridCell.Tab.3.bottom" timestamp="1590640636986">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.3.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590640636986" />
+    <state width="1237" height="87" key="GridCell.Tab.3.center" timestamp="1590640636986">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.3.center/0.0.1280.720@0.0.1280.720" timestamp="1590640636986" />
+    <state width="1237" height="87" key="GridCell.Tab.3.left" timestamp="1590640636986">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.3.left/0.0.1280.720@0.0.1280.720" timestamp="1590640636986" />
+    <state width="1237" height="87" key="GridCell.Tab.3.right" timestamp="1590640636986">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.3.right/0.0.1280.720@0.0.1280.720" timestamp="1590640636986" />
+    <state width="1237" height="87" key="GridCell.Tab.4.bottom" timestamp="1590640636987">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.4.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590640636987" />
+    <state width="1237" height="87" key="GridCell.Tab.4.center" timestamp="1590640636986">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.4.center/0.0.1280.720@0.0.1280.720" timestamp="1590640636986" />
+    <state width="1237" height="87" key="GridCell.Tab.4.left" timestamp="1590640636986">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.4.left/0.0.1280.720@0.0.1280.720" timestamp="1590640636986" />
+    <state width="1237" height="87" key="GridCell.Tab.4.right" timestamp="1590640636987">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.4.right/0.0.1280.720@0.0.1280.720" timestamp="1590640636987" />
+    <state x="352" y="41" key="RiderGenerateDialog" timestamp="1590629981979">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="352" y="41" key="RiderGenerateDialog/0.0.1280.720@0.0.1280.720" timestamp="1590629981979" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1590615056310">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1590615056310" />
+  </component>
+</project>
