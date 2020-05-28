@@ -1,6 +1,12 @@
-﻿using System;
+﻿//LiveChart comentado debido a desconfiguración de la ventana
+
+using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Windows.Forms;
+using LiveCharts;
+using LiveCharts.Wpf;
+using PieChart = LiveCharts.WinForms.PieChart;
 
 namespace Segundo_Parcial_POO
 {
@@ -35,7 +41,33 @@ namespace Segundo_Parcial_POO
         private void AdminUser_Load(object sender, EventArgs e)
         {
             CmbProductUpdate();
-        }
+            
+            //LiveChart comentado debido a desconfiguración de la ventana
+            /*
+            PieChart pie = new PieChart();
+            Controls.Add(pie);
+            pie.Parent = tabAdmin.TabPages[5];
+            pie.Top = 10;
+            pie.Left = 10;
+            pie.Width = pie.Parent.Width - 30;
+            pie.Height = pie.Parent.Height - 30;
+            pie.Series = null;
+            SeriesCollection collection = new SeriesCollection();
+            DataTable dataTable = BusinessDAO.GetColumns();
+            foreach (DataRow row in dataTable.Rows)
+            {
+                collection.Add(new PieSeries
+                {
+                    Title = row[0].ToString(), Values = new ChartValues<int> {Convert.ToInt32(row[1].ToString())},
+                    DataLabels = true
+                });
+            }
+
+            pie.Series = collection;
+            pie.LegendLocation = LegendLocation.Bottom;
+            */
+            }
+    
 
         private void CmbProductUpdate()
         {
@@ -195,10 +227,13 @@ namespace Segundo_Parcial_POO
                 Refresh();
             }
         }
-
+        
+        
         private void AdminUser_FormClosed(object sender, FormClosedEventArgs e)
         {
             Close();
         }
+
+  
     }
 }

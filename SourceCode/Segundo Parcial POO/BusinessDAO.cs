@@ -36,6 +36,20 @@ namespace Segundo_Parcial_POO
             string query = $"DELETE FROM BUSINESS WHERE idBusiness = {bs.idBusiness};";
             DBConnection.ExecuteNonQuery(query);
         }
+        
+        public static DataTable GetColumns()
+        {
+            String query = $"SELECT b.name AS \"Negocio\", sum(cp.cant) AS \"Total pedidos\"" +
+                           " FROM BUSINESS b,"  +
+                           " (SELECT p.idBusiness, p.name, count(ap.idProduct) AS \"cant\" "+
+                           " FROM PRODUCT p, APPORDER ap " +
+                           "WHERE p.idProduct = ap.idProduct" +
+                           " GROUP BY p.idProduct " +
+                           "ORDER BY p.name ASC) AS cp" +
+                           " WHERE b.idBusiness = cp.idBusiness" +
+                           " GROUP BY b.idBusiness;";
+            return DBConnection.ExecuteQuery(query);
+        }
     }
     
     

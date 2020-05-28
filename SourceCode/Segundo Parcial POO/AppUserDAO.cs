@@ -68,12 +68,6 @@ namespace Segundo_Parcial_POO
             DBConnection.ExecuteNonQuery(query);
         }
         
-        public static void UpdateAdress(AppUser user, string newAdress)
-        {
-            string query = String.Format($"UPDATE APPUSER SET adress = '{0}' WHERE idUser = {1};", newAdress, user.idUser);
-            DBConnection.ExecuteNonQuery(query);
-        }
-
         public static void DeleteUser(AppUser appUser)
         {
             string query = $"DELETE FROM APPUSER WHERE idUser = {appUser.idUser};";

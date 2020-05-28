@@ -83,6 +83,7 @@ namespace Segundo_Parcial_POO
             this.tpViewOrders = new System.Windows.Forms.TabPage();
             this.tlpViewOrders = new System.Windows.Forms.TableLayoutPanel();
             this.dgvOrders = new System.Windows.Forms.DataGridView();
+            this.tpLiveChart = new System.Windows.Forms.TabPage();
             this.tlpAdminUser.SuspendLayout();
             this.tabAdmin.SuspendLayout();
             this.tpModifyUsers.SuspendLayout();
@@ -134,6 +135,7 @@ namespace Segundo_Parcial_POO
             this.tabAdmin.Controls.Add(this.tpBusiness);
             this.tabAdmin.Controls.Add(this.tpProducts);
             this.tabAdmin.Controls.Add(this.tpViewOrders);
+            this.tabAdmin.Controls.Add(this.tpLiveChart);
             this.tabAdmin.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabAdmin.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
@@ -208,7 +210,7 @@ namespace Segundo_Parcial_POO
             this.cmbUsers.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.cmbUsers.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbUsers.FormattingEnabled = true;
-            this.cmbUsers.Location = new System.Drawing.Point(280, 60);
+            this.cmbUsers.Location = new System.Drawing.Point(280, 68);
             this.cmbUsers.Name = "cmbUsers";
             this.cmbUsers.Size = new System.Drawing.Size(344, 36);
             this.cmbUsers.TabIndex = 0;
@@ -611,7 +613,7 @@ namespace Segundo_Parcial_POO
             this.tlpProducts.ColumnStyles.Add(
                 new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 93.83886F));
             this.tlpProducts.ColumnStyles.Add(
-                new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 445F));
+                new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 446F));
             this.tlpProducts.Controls.Add(this.lblDeleteP, 0, 4);
             this.tlpProducts.Controls.Add(this.lblProductName, 1, 2);
             this.tlpProducts.Controls.Add(this.lblBusinesses, 1, 1);
@@ -690,7 +692,7 @@ namespace Segundo_Parcial_POO
             this.cmbBusiness.Font = new System.Drawing.Font("Malgun Gothic", 11F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.cmbBusiness.FormattingEnabled = true;
-            this.cmbBusiness.Location = new System.Drawing.Point(479, 99);
+            this.cmbBusiness.Location = new System.Drawing.Point(478, 99);
             this.cmbBusiness.Name = "cmbBusiness";
             this.cmbBusiness.Size = new System.Drawing.Size(354, 38);
             this.cmbBusiness.TabIndex = 0;
@@ -710,7 +712,7 @@ namespace Segundo_Parcial_POO
             // txtProductName
             // 
             this.txtProductName.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txtProductName.Location = new System.Drawing.Point(479, 176);
+            this.txtProductName.Location = new System.Drawing.Point(478, 176);
             this.txtProductName.Name = "txtProductName";
             this.txtProductName.Size = new System.Drawing.Size(354, 37);
             this.txtProductName.TabIndex = 6;
@@ -722,7 +724,7 @@ namespace Segundo_Parcial_POO
             this.cmbBusiness2.Font = new System.Drawing.Font("Malgun Gothic", 11F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.cmbBusiness2.FormattingEnabled = true;
-            this.cmbBusiness2.Location = new System.Drawing.Point(479, 425);
+            this.cmbBusiness2.Location = new System.Drawing.Point(478, 425);
             this.cmbBusiness2.Name = "cmbBusiness2";
             this.cmbBusiness2.Size = new System.Drawing.Size(354, 38);
             this.cmbBusiness2.TabIndex = 2;
@@ -733,7 +735,7 @@ namespace Segundo_Parcial_POO
             this.lblProducts.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblProducts.Font = new System.Drawing.Font("Malgun Gothic", 11F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.lblProducts.Location = new System.Drawing.Point(88, 427);
+            this.lblProducts.Location = new System.Drawing.Point(87, 427);
             this.lblProducts.Name = "lblProducts";
             this.lblProducts.Size = new System.Drawing.Size(329, 34);
             this.lblProducts.TabIndex = 3;
@@ -784,7 +786,7 @@ namespace Segundo_Parcial_POO
             this.cmbProduct.Font = new System.Drawing.Font("Malgun Gothic", 11F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.cmbProduct.FormattingEnabled = true;
-            this.cmbProduct.Location = new System.Drawing.Point(479, 508);
+            this.cmbProduct.Location = new System.Drawing.Point(478, 508);
             this.cmbProduct.Name = "cmbProduct";
             this.cmbProduct.Size = new System.Drawing.Size(354, 38);
             this.cmbProduct.TabIndex = 11;
@@ -832,6 +834,15 @@ namespace Segundo_Parcial_POO
             this.dgvOrders.RowTemplate.Height = 28;
             this.dgvOrders.Size = new System.Drawing.Size(916, 661);
             this.dgvOrders.TabIndex = 0;
+            // 
+            // tpLiveChart
+            // 
+            this.tpLiveChart.Location = new System.Drawing.Point(4, 37);
+            this.tpLiveChart.Name = "tpLiveChart";
+            this.tpLiveChart.Size = new System.Drawing.Size(922, 667);
+            this.tpLiveChart.TabIndex = 5;
+            this.tpLiveChart.Text = "Gráfico";
+            this.tpLiveChart.UseVisualStyleBackColor = true;
             // 
             // AdminUser
             // 
@@ -926,5 +937,6 @@ namespace Segundo_Parcial_POO
         private System.Windows.Forms.ComboBox cmbProduct;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cmbBusiness2;
+        private System.Windows.Forms.TabPage tpLiveChart;
     }
 }
